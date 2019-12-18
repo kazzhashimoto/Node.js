@@ -1,4 +1,4 @@
-var = http = require("http");
+var http = require("http");
 var server = http.createServer(function(req,res){
   res.writeHead(200,{'Connect-Type': 'text/plain'});
   res.write('Hello World');
